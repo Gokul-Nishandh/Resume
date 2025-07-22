@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-size: 18px;
+
+}
+.line{
+    border: 1px solid black;
+}
+.hline{
+    border: 1px solid black;
+    margin-left: 5px;
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom : 5px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#main{
+    margin-bottom: 10px;
+}
+#main h2{
+    margin-top: 15px;
+    font-size: 25px;
+}
+#main h4{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+#main p{
+    margin-top: 5px;
+}
+#main h6{
+    display: flex;
+    flex-direction: row;
+}
+
+.project li{
+    display: flex;
+    justify-content: space-between;
+    margin : 10px 0px;
+}
+.skl{
+    display:  flex;
+    margin: -15px 0px;
+    align-items: center;
+}
+.skl p{
+    margin-left: 30px;
+}
+.skl h5{
+    font-size: 15px;
+
+}
+.dummy{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+}
